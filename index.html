@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Huiswerk les 25</title>
+<script
+src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script>
+$(document).ready(function() {
+$("#klikhier").click(function() {
+var huisdier = $("#1").val();
+var hobby = $("#2").val();
+var droom_job = $("#3").val();
+window.alert(
+"Mijn favoriete huisdier is " +huisdier+
+" ,favoriete hobby is " +hobby+ 
+" en mijn droomjob is " +droom_job
+);
+});
+});
+</script>
+</head>
+<body>
+<form>
+Wat is uw favoriete huisdier?
+<input type="text" id="1"><br><br>
+Wat is uw favoriete hobby?
+<input type="text" id="2"><br><br>
+Wat is uw droom job?
+<input type="text" id="3"><br><br>
+<input id="klikhier" name="knop" type="button"
+value="Klik op deze knop">
+</form>
+<noscript>Gelieve javascript te accepteren, anders wordt deze webpagina niet naar behoren weergeven.</noscript>
+</body>
+</html>
